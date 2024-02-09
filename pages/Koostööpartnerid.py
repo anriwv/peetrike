@@ -9,11 +9,7 @@ from streamlit_lottie import st_lottie
 st.set_page_config(
     page_title="Koostööpartnerid",
     page_icon="🚀",
-    #layout="wide",
-    #initial_sidebar_state="collapsed"
-    # initial_sidebar_state="expanded"
 )
-
 
 url = requests.get( 
     "https://lottie.host/a5888eeb-f34f-4a3a-9e68-1ce6bc4e1e29/8QLSbaMulG.json") 
@@ -32,12 +28,9 @@ st_lottie(url_json,
           width=400,
           speed=1, # speed of animation  
           loop=True, # means the animation will run forever like a gif, and not as a still image 
-          quality='high', # quality of elements used in the animation, other values are "low" and "medium"
-          key='Car' # This is just to uniquely identify the animation 
-          ) 
+          quality='high', # quality of elements used in the animation, other values are "low" and "medium" 
+          )
 
-
-
-st.title("")
+st.title("AAA")
 conf = SparkConf().setAppName("lecture-lyon2").setMaster("local")
 sc = SparkContext.getOrCreate(conf=conf)
