@@ -1,0 +1,6 @@
+streamlit
+streamlit_gsheets
+streamlit_lottie
+requests
+pyspark
+pandas
