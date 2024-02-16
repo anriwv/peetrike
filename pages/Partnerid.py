@@ -31,6 +31,6 @@ st_lottie(url_json,
           quality='high', # quality of elements used in the animation, other values are "low" and "medium" 
           )
 
-st.title("AAA")
+st.title("Lorem ipsum dolor sit amet, consectetur adipiscing elit")
 conf = SparkConf().setAppName("lecture-lyon2").setMaster("local")
 sc = SparkContext.getOrCreate(conf=conf)
