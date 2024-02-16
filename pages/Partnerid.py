@@ -31,11 +31,13 @@ st_lottie(url_json,
           quality='high', # quality of elements used in the animation, other values are "low" and "medium" 
           )
 
+
 st.markdown("""
-<div style='text-align: left;'>
+<div style='text-align: center;'>
     <h4>Nõo Reaalgümnaasium</h4>
-    <a href='https://nrg.edu.ee/'><img src='https://nrg.edu.ee/sites/nrg.edu.ee/files/styles/hitsa_core_logo/public/nrg_uus_logo.jpg' alt='Nõo Reaalgümnaasium' /></a>
+    <a href='https://nrg.edu.ee/'><img src='https://nrg.edu.ee/sites/nrg.edu.ee/files/styles/hitsa_core_logo/public/nrg_uus_logo.jpg' alt='Nõo Reaalgümnaasium' style='max-width: 100%; max-height: 100%; display: block; margin-left: auto; margin-right: auto;' /></a>
     <h4>TT Print OÜ</h4>
-    <a href='https://ttprint.ee/'><img src='https://ttprint.ee/wp-content/uploads/2017/09/TTPrint_logo_ring2.png' alt='TT Print OÜ' /></a>
+    <a href='https://ttprint.ee/'><img src='https://raw.githubusercontent.com/anriwv/peetrike/main/TTPrint_logo_ring2.png' alt='TT Print OÜ' style='max-width: 50%; max-height: 500%; display: block; margin-left: auto; margin-right: auto;' /></a>
 </div>
 """, unsafe_allow_html=True)
+
