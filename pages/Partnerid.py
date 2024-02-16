@@ -24,13 +24,13 @@ st.title("Koostööpartnerid")
   
 st_lottie(url_json, 
           reverse=True, # change the direction of our animation 
-          height=400, # height and width of animation 
-          width=400,
+          height=200, # height and width of animation 
+          width=200,
           speed=1, # speed of animation  
           loop=True, # means the animation will run forever like a gif, and not as a still image 
           quality='high', # quality of elements used in the animation, other values are "low" and "medium" 
           )
 
 st.title("Lorem ipsum dolor sit amet, consectetur adipiscing elit")
-conf = SparkConf().setAppName("lecture-lyon2").setMaster("local")
-sc = SparkContext.getOrCreate(conf=conf)
+#conf = SparkConf().setAppName("lecture-lyon2").setMaster("local")
+#sc = SparkContext.getOrCreate(conf=conf)
