@@ -31,6 +31,11 @@ st_lottie(url_json,
           quality='high', # quality of elements used in the animation, other values are "low" and "medium" 
           )
 
-st.title("Lorem ipsum dolor sit amet, consectetur adipiscing elit")
+st.markdown("#### Nõo Reaalgümnaasium")
+st.image('https://nrg.edu.ee/sites/nrg.edu.ee/files/styles/hitsa_core_logo/public/nrg_uus_logo.jpg')
+
+st.markdown("#### TT Print OÜ")
+st.image('https://ttprint.ee/wp-content/uploads/2017/09/TTPrint_logo_ring2.png')
+
 #conf = SparkConf().setAppName("lecture-lyon2").setMaster("local")
 #sc = SparkContext.getOrCreate(conf=conf)
