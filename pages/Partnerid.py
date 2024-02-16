@@ -37,7 +37,7 @@ st.markdown("""
     <h4>Nõo Reaalgümnaasium</h4>
     <a href='https://nrg.edu.ee/'><img src='https://nrg.edu.ee/sites/nrg.edu.ee/files/styles/hitsa_core_logo/public/nrg_uus_logo.jpg' alt='Nõo Reaalgümnaasium' style='max-width: 100%; max-height: 100%; display: block; margin-left: auto; margin-right: auto;' /></a>
     <h4>TT Print OÜ</h4>
-    <a href='https://ttprint.ee/'><img src='https://raw.githubusercontent.com/anriwv/peetrike/main/TTPrint_logo_ring2.png' alt='TT Print OÜ' style='max-width: 50%; max-height: 500%; display: block; margin-left: auto; margin-right: auto;' /></a>
+    <a href='https://ttprint.ee/'><img src='https://raw.githubusercontent.com/anriwv/peetrike/main/ttprint.png' alt='TT Print OÜ' style='max-width: 25%; max-height: 25%; display: block; margin-left: auto; margin-right: auto;' /></a>
 </div>
 """, unsafe_allow_html=True)
 
