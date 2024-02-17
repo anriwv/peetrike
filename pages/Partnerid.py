@@ -20,7 +20,6 @@ else:
     print("Error in URL") 
   
 
-st.title("Koostööpartnerid") 
   
 st_lottie(url_json, 
           reverse=True, # change the direction of our animation 
@@ -34,8 +33,9 @@ st_lottie(url_json,
 
 st.markdown("""
 <div style='text-align: center;'>
+    <h1>Koostööpartnerid</h1>
     <h4>Nõo Reaalgümnaasium</h4>
-    <a href='https://nrg.edu.ee/'><img src='https://nrg.edu.ee/sites/nrg.edu.ee/files/styles/hitsa_core_logo/public/nrg_uus_logo.jpg' alt='Nõo Reaalgümnaasium' style='max-width: 100%; max-height: 100%; display: block; margin-left: auto; margin-right: auto;' /></a>
+    <a href='https://nrg.edu.ee/'><img src='https://nrg.edu.ee/sites/nrg.edu.ee/files/styles/hitsa_core_logo/public/nrg_uus_logo.jpg' alt='Nõo Reaalgümnaasium' style='max-width: 60%; max-height: 60%; display: block; margin-left: auto; margin-right: auto;' /></a>
     <h4>TT Print OÜ</h4>
     <a href='https://ttprint.ee/'><img src='https://raw.githubusercontent.com/anriwv/peetrike/main/ttprint.png' alt='TT Print OÜ' style='max-width: 25%; max-height: 25%; display: block; margin-left: auto; margin-right: auto;' /></a>
 </div>
