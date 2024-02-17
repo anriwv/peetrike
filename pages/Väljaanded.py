@@ -8,21 +8,6 @@ def embed_pdf(pdf_url):
 
 st.title("Peetrike Arhiiv")
 
-# Alapealkiri
-st.subheader("Tere tulemast avastama minevikku ja lugema läbi 'Peetrike' koolilehe ajalugu.")
-
-# Arhiivi tekstiblokk
-st.markdown("""
-'Peetrike' on Nõo Reaalgümnaasiumi koolileht, mis on jäädvustanud meie kooli elu ja arengut aastate jooksul.
-Siin saate sirvida vanu numbreid ning avastada kooliperes toimunud olulisi hetki.
-
-Leiate palju huvitavaid lugusid, pilte ja mälestusi, mis annavad aimu meie kooli mitmekesisest ajaloost.
-
-Täname, et jagate meiega huvi meie kooli pärandi vastu ning avastate koos meiega 'Peetrike' koolilehe rikkalikku ajalugu.
-""")
-
-
-
 # Establish connection
 conn = st.connection("gsheets", type=GSheetsConnection)
 
