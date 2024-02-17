@@ -19,17 +19,7 @@ if url.status_code == 200:
 else: 
     print("Error in URL") 
   
-
-  
-st_lottie(url_json, 
-          reverse=True, # change the direction of our animation 
-          height=200, # height and width of animation 
-          width=200,
-          speed=1, # speed of animation  
-          loop=True, # means the animation will run forever like a gif, and not as a still image 
-          quality='high', # quality of elements used in the animation, other values are "low" and "medium" 
-          )
-
+st_lottie(animation_json,height=200, speed=1, loop=True, quality='high')
 
 st.markdown("""
 <div style='text-align: center;'>
