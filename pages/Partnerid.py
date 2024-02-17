@@ -19,7 +19,7 @@ if url.status_code == 200:
 else: 
     print("Error in URL") 
   
-st_lottie(animation_json,height=200, speed=1, loop=True, quality='high')
+st_lottie(url_json, height=200, speed=1, loop=True, quality='high')
 
 st.markdown("""
 <div style='text-align: center;'>
