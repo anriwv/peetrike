@@ -31,14 +31,15 @@ st.write(
     """
     Peetrike asutati 1992 aasta kevadel. 
     Koolilehe asutajaks on Martin Pau, kes alustas koolilehe välja andmist olles ise NRG 11.klassis.
+    
     Päris alguses oli koolilehe nimeks Sirp ja Peetrike. Nõukogude ajal ilmus kultuurileht Sirp ja Vasar ning arvatavasti pärines Sirp sealt.
     Peetrikese nimi sai pandud koolilehe teise asutaja Priit Einmanni poolt, meenutades ühte lasteraamatut või filmi.
     Ühel hetkel kadus Sirp sealt eest ära ning jäi alles ainult nimi Peetrike.
     Sirbi ja Peetrikese nime all on ilmunud 1992. aasta kevadel ainult kolm-neli numbrit, kuid kahjuks pole ükski numbritest säilinud.
+    
     Peetrikese asutaja Martin Pau on öelnud: 
     'Peetrikese nimi oli täiesti ambitsioonitu, tähendusetu, suisa mõttetu. 
     Võib-olla sellepärast osutuski heaks nimeks ja võib-olla on sellepärast siiamaani püsima jäänud.
-    On imetlusväärne, et 23 aasta jooksul ei ole tahetud paremat panna.'
     """)
 
 
